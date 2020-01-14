@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Kompis Online</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/dashboard.css">
+</head>
+
+<body style="background-color:rgb(244,243,239);">
+    <div id="wrapper" >
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <div class="list-group">
+                <li class="sidebar-brand list-group-item list-group-item-action text-center p-2 " >
+                    <img src="./assets/images/kompisfont.jpeg" alt="Kompis Font" id="kompis-fontimage-sidebar">
+                </li>
+                <li class="text-center list-group-item list-group-item-action  ">
+                    <b><p>Senin, 13 Januari 2019</p></b>
+                    <p>10:20:18 WIB</p>
+                </li>
+                <li class="sidebar-logo text-center  " >
+                    <img src="./assets/images/kompislogo.png" alt="Kompis Logo" id="kompis-logoimage-sidebar">
+                    <h5 class="font-weight-bold mt-2"> Bank Sampah</h5>
+                </li>
+                </div>
+                <div class="sidebar-nav-menu list-group list-group-flush">
+                    <li class="list-group-item list-group-item-action bg-primary ">
+                        <a href="#" class="text-white" > <span class="fas fa-tachometer-alt mr-3 text-white"></span> Dashboard</a>
+                    </li>
+                    <li class="list-group-item list-group-item-action " id="sidebar-menu">
+                        <a href="#"><span class="fas fa-hand-holding-usd mr-3"></span>Nasabah & Transaksi</a>
+                    </li>
+                    <li class="list-group-item list-group-item-action " id="sidebar-menu">
+                        <a href="#"><span class="fas fa-truck mr-3"></span>Jemput Sampah</a>
+                    </li>
+
+                    <li class="list-group-item list-group-item-action  "  id="sidebar-menu">
+                        <a  data-toggle="collapse" href="#collapseMenu1" role="button" aria-expanded="false" aria-controls="collapseMenu1">
+                          <span class="fas fa-plus pr-3" ></span>Permintaan<div class="float-right pr-3"><span class="fas fa-angle-right"></span></div>
+                        </a>
+                    </li>
+                    <div class="collapse" id="collapseMenu1">
+                      <li class="list-group-item list-group-item-action  pl-5" id="sidebar-menu" >
+                        <a href="#"><span class="fas fa-circle mr-3" ></span>Permintaan 1</a>
+                      </li>
+                      <li class="list-group-item list-group-item-action  pl-5" id="sidebar-menu">
+                        <a href="#"><span class="fas fa-circle mr-3"></span>Permintaan 2</a>
+                      </li>
+                    </div>
+
+                    <li class="list-group-item list-group-item-action " id="sidebar-menu">
+                        <a data-toggle="collapse" href="#collapseMenu2" role="button" aria-expanded="false" aria-controls="collapseMenu2">
+                          <span class="fas fa-trash mr-3"></span>Smart Drop Box<div class="float-right pr-3"><span class="fas fa-angle-right"></span></div>
+                        </a>
+                    </li>
+                    <div class="collapse" id="collapseMenu2">
+                      <li class="list-group-item list-group-item-action  pl-5" id="sidebar-menu">
+                        <a href="#"><span class="fas fa-circle mr-3"></span>mart Drop Box2</a>
+                      </li>
+                      <li class="list-group-item list-group-item-action  pl-5" id="sidebar-menu">
+                        <a href="#"><span class="fas fa-circle mr-3"></span>mart Drop Box2</a>
+                      </li>
+                    </div>
+
+                    <li class="list-group-item list-group-item-action " id="sidebar-menu">
+                        <a data-toggle="collapse" href="#collapseMenu3" role="button" aria-expanded="false" aria-controls="collapseMenu3">
+                          <span class="fas fa-home mr-3"></span>Bank Sampah<div class="float-right pr-3"><span class="fas fa-angle-right"></span></div>
+                        </a>
+                    </li>
+                    <div class="collapse" id="collapseMenu3">
+                      <li class="list-group-item list-group-item-action  pl-5" id="sidebar-menu">
+                        <a href="#"><span class="fas fa-circle mr-3"></span>Bank Sampah 1</a>
+                      </li>
+                      <li class="list-group-item list-group-item-action  pl-5" id="sidebar-menu">
+                        <a href="#"><span class="fas fa-circle mr-3"></span>Bank Sampah 2</a>
+                      </li>
+                    </div>
+
+
+                    <li class="list-group-item list-group-item-action mb-5 " id="sidebar-menu">
+                        <a href="#"><span class="fas fa-star mr-3"></span>BankSampah.id.gold</a>
+                    </li>
+                </div>
+
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+            <a class="navbar-brand"class="btn btn-default icon-navbar" id="menu-toggle" href="#menu-toggle" ><span class="fas fa-bars mr-3 text-white"></span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="fas fa-user mr-2"></span>Bank Sampah Simphoni</a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#"><span class="fas fa-user-alt mr-2"></span>Profile </a>
+                        <a class="dropdown-item" href="#"><span class="fas fa-cogs mr-2"></span>Settings</a>
+                      </div>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link fas fa-power-off text-white"></a>
+                    </li>
+                  </ul>
+            </div>
+        </nav>
+        
+         <!-- Page Content -->
+         <div id="page-content" >
+             <div><a style="font-size:3ex" class="mr-3 "> Dashboard</a><a style="color: rgb(126, 126, 126);">Halaman Dashboard Bank Sampah Simphoni Indonesia</a></div>
+         </div>
+        <div id="page-content-wrapper">
+
+          <div class="row">
+
+              <div class="col-md-4">
+                  <div class="card-counter warning">
+                    <i class="fa fa-users"></i>
+                    <span class="count-numbers">253</span>
+                    <span class="count-name">Nasabah</span>
+                  </div>
+              </div>
+
+              <div class="col-md-4">  
+                  <div class="card-counter info">
+                    <i class="fa fa-trash"></i>
+                    <span class="count-numbers">27,17<span style="font-size: 20px;">Ton</span></span>
+                    <span class="count-name">Total Sampah Terkumpul:27,173 kg</span>
+                  </div>
+                </div>
+          
+              <div class="col-md-4">
+                <div class="card-counter success">
+                  <i class="fa fa-chart-bar"></i>
+                  <span class="count-numbers">15,26<span style="font-size: 20px;">Jt</span></span>
+                  <span class="count-name">Konversi Sampah : Rp.15.259.762,-</span>
+                </div>
+              </div>
+          
+          </div>
+
+          <div class="row">
+
+              <div class="col-md-4">
+                  <div class="card-counter purple">
+                    <i class="fa fa-user-plus"></i>
+                    <span class="count-numbers">666</span>
+                    <span class="count-name">Permintaan Nasabah Baru</span>
+                  </div>
+              </div>
+
+              <div class="col-md-4">
+                  <div class="card-counter success">
+                    <i class="fa fa-exchange-alt"></i>
+                    <span class="count-numbers">35</span>
+                    <span class="count-name">Permintaan Topup smash pay</span>
+                  </div>
+                </div>
+          
+              <div class="col-md-4">
+                <div class="card-counter success">
+                  <i class="fa fa-credit-card"></i>
+                  <span class="count-numbers">Rp.0,-</span>
+                  <span class="count-name">Saldo Smash Pay</span>
+                </div>
+              </div>
+          
+          </div>
+
+          <div class="row">
+
+              <div class="col-md-4">
+                  <div class="card-counter warning">
+                    <i class="fa fa-exchange-alt"></i>
+                    <span class="count-numbers">599<span style="font-size: 20px;">Baru</span></span>
+                    <span class="count-name">Permintaan Jemput Sampah</span>
+                    <span class="count-name-second">Total Permintaan: 599</span>
+                  </div>
+              </div>
+
+              <div class="col-md-4">
+                  <div class="card-counter warning">
+                    <i class="fa fa-exchange-alt"></i>
+                    <span class="count-numbers">35<span style="font-size: 20px;">Diterima(0%)</span></span>
+                    <span class="count-name">Permintaan Jemput Sampah</span>
+                    <span class="count-name-second">Sampah Dijemput 0,00kg</span>
+                  </div>
+              </div>
+          
+              <div class="col-md-4">
+                <div class="card-counter danger">
+                  <i class="fa fa-exchange-alt"></i>
+                    <span class="count-numbers">35<span style="font-size: 20px;">Ditolak(0%)</span></span>
+                    <span class="count-name">Permintaan Jemput Sampah</span>
+                    <span class="count-name-second"> Di batalkan oleh Nasabah (0%)</span>
+                </div>
+              </div>
+          
+          </div>
+
+          <div class="card mt-2">
+            <div class="card-header border-success">
+              Statistik Transaksi Harian (Saldo) - 1 Bulan Terakhir
+            </div>
+            <div class="card-body">
+              <canvas id="myChart" width="400" height="100"></canvas>
+            </div>
+          </div>
+
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!---Icons Fontawesome -->
+    <script src="https://kit.fontawesome.com/08dd4b0456.js" crossorigin="anonymous"></script>
+    <!----Chart Js-->
+    <script crossorigin="anonymous" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.js"></script>
+    <!-- /#wrapper -->
+     <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+    <script>
+      var ctx = document.getElementById('myChart').getContext('2d');
+      var myChart = new Chart(ctx, {
+          type: 'line',
+          data: {
+              labels: ['11-12-2020', '11-12-2020', '11-12-2020', '11-12-2020', '11-12-2020', '11-12-2020','11-12-2020','11-12-2020','11-12-2020','11-12-2020','11-12-2020','11-12-2020','11-12-2020'],
+              datasets: [{
+                  label: 'Setoran Tunai',
+                  data: [10, 15, 4, 5, 8, 3,6,2,5,3,1,4,6],
+                  borderColor: [
+                      'rgba(255, 99, 132, 1)'
+                  ],
+                  borderWidth: 1,
+                  fill:false
+              },
+              {
+                  label: 'Pengambilan',
+                  data: [12, 19, 3, 5, 2, 3,6,2,9,1,6,4,6],
+                  borderColor: [
+                      'rgba(61, 210, 227)'
+                  ],
+                  borderWidth: 1,
+                  fill:false
+              },]
+          },
+          options: {
+              scales: {
+                  yAxes: [{
+                      ticks: {
+                          beginAtZero: true
+                      }
+                  }]
+              }
+          }
+      });
+    </script>
+
+</body>
+
+</html>

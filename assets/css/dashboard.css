@@ -1,10 +1,3 @@
-/*!
- * Start Bootstrap - Simple Sidebar HTML Template (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
-
-/* Toggle Styles */
 
 #wrapper {
     padding-left: 0;
@@ -93,10 +86,7 @@
     color: beige;
 }
 
-#kompis-fontimage-sidebar{
-    height: 5rem;
-    width: 10rem;
-}
+
 
 #kompis-logoimage-sidebar{
     height: 10rem;

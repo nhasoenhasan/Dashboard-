@@ -29,3 +29,12 @@
  - Boostrap 4.4 
  - Fontawesome 5.12.0
  - Chart Js
+
+ ## Screenshot 
+
+ <div align='center'>
+  <h3>Dashboard Page</h3>
+  <span>
+      <image width="100%" src="screenshot/Screenshot.png" />
+  </span>
+</div>

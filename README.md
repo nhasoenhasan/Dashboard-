@@ -24,7 +24,7 @@
 
 
 
-## Stacks and Dependencies
+## Stacks 
 
  - Boostrap 4.4 
  - Fontawesome 5.12.0

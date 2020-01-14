@@ -7,7 +7,7 @@
 <p align="center">
 <img src="https://img.shields.io/badge/bootstrap-4.4-purple">
 <img src="https://img.shields.io/badge/fontawesome-5.12.0-orange"> 
-<img src="https://img.shields.io/badge/stack-stack-brightgreen">
+<img src="https://img.shields.io/badge/stack-chartJs-brightgreen">
 </p>
 
 ## Run Setup
